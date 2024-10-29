@@ -7,7 +7,7 @@ record User(String name, int age) {
         return "User{name='" + name + "', age=" + age + '}';
     }
 }
-
+//B2
 public class RedisCacheExample {
     private static Jedis jedis;
     private static Gson gson;
